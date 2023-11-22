@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: documented-component
-  title: Documented Component
+  name: documented-component-github
+  title: Documented Component Github
   description: A Service with TechDocs documentation
   annotations:
-    backstage.io/techdocs-ref: elderlelisglobalhitss/backstage-techdocs-test
+    github.com/project-slug: elderlelisglobalhitss/backstage-techdocs-test
 spec:
   type: service
   lifecycle: experimental
