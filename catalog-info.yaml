@@ -4,12 +4,18 @@ metadata:
   name: backstage-techdocs-test
   annotations:
     github.com/project-slug: elderlelisglobalhitss/backstage-techdocs-test
+
+spec:
+  type: other
+  lifecycle: unknown
+  owner: user:guest
+
 #spec:
 #  type: other
 #  lifecycle: unknown
 #  owner: guests
 
-spec:
-  type: service
-  lifecycle: experimental
-  owner: user:guest
+#spec:
+#  type: service
+#  lifecycle: experimental
+#  owner: user:guest
