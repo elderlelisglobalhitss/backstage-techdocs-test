@@ -1,14 +1,31 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-techdocs-test
+  name: documented-component
+  title: Documented Component
+  description: A Service with TechDocs documentation
   annotations:
-    github.com/project-slug: elderlelisglobalhitss/backstage-techdocs-test
-
+    backstage.io/techdocs-ref: dir:.
 spec:
-  type: other
-  lifecycle: unknown
+  type: service
+  lifecycle: experimental
   owner: user:guest
+
+
+
+#apiVersion: backstage.io/v1alpha1
+#kind: Component
+#metadata:
+#  name: backstage-techdocs-test
+#  annotations:
+#    github.com/project-slug: elderlelisglobalhitss/backstage-techdocs-test
+#  annotations:
+#    backstage.io/techdocs-ref: dir:.  
+
+#spec:
+#  type: other
+#  lifecycle: unknown
+#  owner: user:guest
 
 #spec:
 #  type: other
