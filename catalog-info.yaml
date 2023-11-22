@@ -5,6 +5,7 @@ metadata:
   title: Documented Component Github
   description: A Service with TechDocs documentation
   annotations:
+    backstage.io/techdocs-ref: dir:. 
     github.com/project-slug: elderlelisglobalhitss/backstage-techdocs-test
 spec:
   type: service
