@@ -5,7 +5,7 @@ metadata:
   title: Documented Component
   description: A Service with TechDocs documentation
   annotations:
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: elderlelisglobalhitss/backstage-techdocs-test
 spec:
   type: service
   lifecycle: experimental
